@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мои работы за семестр</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 40px; background:#0b1220; color:#e8eefc; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    h1 { margin-bottom: 10px; }
+    p { opacity: .85; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 24px; }
+    a.card { display:block; padding:16px; border-radius:14px; background:#121b33; color:inherit; text-decoration:none; border:1px solid #233055; }
+    a.card:hover { transform: translateY(-2px); transition:.15s; border-color:#3a57a3; }
+    .title { font-weight: 700; margin-bottom: 6px; }
+    .desc { font-size: 14px; opacity: .8; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Мои работы за семестр</h1>
+    <p>3 сайта + итоговая работа (GitHub Pages).</p>
+
+    <div class="grid">
+      <a class="card" href="https://github.com/Default8914/portfolio">
+        <div class="title">Работа 1</div>
+        <div class="desc">Краткое описание.</div>
+      </a>
+
+      <a class="card" href="https://github.com/Default8914/dashboard-lab2">
+        <div class="title">Работа 2</div>
+        <div class="desc">Краткое описание.</div>
+      </a>
+
+      <a class="card" href="https://github.com/Default8914/platformer-lab3">
+        <div class="title">Работа 3</div>
+        <div class="desc">Краткое описание.</div>
+      </a>
+
+      <a class="card" href="https://github.com/Default8914/portfolio">
+        <div class="title">Итоговая работа</div>
+        <div class="desc">Краткое описание.</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
